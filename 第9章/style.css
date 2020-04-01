@@ -29,7 +29,6 @@ main{
 }
 
 .step1-img{
-  width: 280px;
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
@@ -37,7 +36,6 @@ main{
 }
 
 .step2-img{
-  width:280px;
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
@@ -45,7 +43,6 @@ main{
 }
 
 .step3-img{
-  width:280px;
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
@@ -85,8 +82,10 @@ main{
 }
 
 @media screen and (max-width:768px) {
+  main{
+    width: 90%;
+  }
   .step-box{
-    width:90%;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
